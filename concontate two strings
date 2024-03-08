@@ -1,0 +1,9 @@
+# Define two strings
+str1 = "Hello, "
+str2 = "World!"
+
+# Concatenate the two strings
+concatenated_string = str1 + str2
+
+# Print the concatenated string
+print(concatenated_string)
