@@ -1,0 +1,3 @@
+n=[1,5,4,7,9,3,6,2,22,44,78,63,32,228,776]
+filt_n=list(filter(lambda a:a%2==0,n))
+print("Original Number is:",filt_n)

@@ -1,0 +1,9 @@
+input="Dayakar".lower()
+char_f={}
+for char in input:
+    if char in char_f:
+        char_f[char] +=1
+    else:
+        char_f[char]=1
+for char,f in char_f.items():
+    print(char,": ",f)

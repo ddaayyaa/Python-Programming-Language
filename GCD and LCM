@@ -1,0 +1,10 @@
+n1=8
+n2=3
+a=n1
+b=n2
+while b:
+    a,b=b,a%b
+gcd=a
+print(gcd)
+lcm=(n1*n2)//gcd
+print(lcm)

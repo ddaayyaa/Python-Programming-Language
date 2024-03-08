@@ -1,0 +1,5 @@
+arr=input("Enter a elements").split()
+sum=0
+for i in arr:
+    sum +=int(i)
+print("sum of array is: ",sum)
