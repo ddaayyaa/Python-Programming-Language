@@ -1,0 +1,6 @@
+arr=[1,2,3,4,5]
+length=len(arr)
+pos=5
+if pos>0 and pos<length:
+    arr=arr[pos:]+arr[:pos]
+print(arr)

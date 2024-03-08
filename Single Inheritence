@@ -1,0 +1,9 @@
+class dad():
+    def phone(self):
+        print("Allowed to use phone")
+class son(dad):
+    def study(self):
+        print("For study Purpose need phone")
+s=son()
+s.study()
+s.phone()

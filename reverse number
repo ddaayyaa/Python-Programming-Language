@@ -1,0 +1,3 @@
+n=123456
+my_str=str(n)
+print("Reversed Number is: ",my_str[::-1])
