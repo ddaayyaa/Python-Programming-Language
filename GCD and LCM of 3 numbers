@@ -1,0 +1,7 @@
+import math
+n1=12
+n2=23
+n3=43
+gcd=math.gcd(n1,n2,n3)
+lcm=(n1*n2*n3)//gcd
+print(gcd,lcm)

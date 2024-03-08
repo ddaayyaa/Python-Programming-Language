@@ -1,0 +1,9 @@
+mystr = "Dayakar"
+str=iter(mystr)
+print(next(str))
+print(next(str))
+print(next(str))
+print(next(str))
+print(next(str))
+print(next(str))
+print(next(str))

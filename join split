@@ -1,0 +1,3 @@
+s="saveetha\nworld"
+a=s.split('\n')
+print('\n'.join(a))

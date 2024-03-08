@@ -1,0 +1,9 @@
+height=int(input("enter height of person :"))
+if height<150:
+    print("dwarf")
+elif height>150 and height<175:
+    print("Average")
+elif height>175 and height<200:
+    print("Taller")
+else:
+    print("Abnormal")
