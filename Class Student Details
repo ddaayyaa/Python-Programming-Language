@@ -1,0 +1,24 @@
+class student:
+   course1="c"
+   course2="C++"
+   course3="Python"
+   def __init__(   self,Name,regno):
+       self.Name=Name
+       self.regno=regno
+   def display(self):
+      print("Student details: ",   self.Name.upper())
+      print("stud1 Reg No: ",   self.regno)
+      print("stud course1: ",   self.course1.upper())
+      print("stud Course2: ",   self.course2.upper())
+      print("stud course3: ",   self.course3.upper())
+
+su1=student("Dayakar",192311085)
+su1.display()
+su2=student("Trinath",192311115)
+su2.display()
+su3=student("dinesh",192321345)
+su3.display()
+su4=student("sravan",192311874)
+su4.display()
+su5=student("HArsha",192311344)
+su5.display()
