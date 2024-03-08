@@ -1,0 +1,8 @@
+arr=input("entet the array").split()
+length=len(arr)
+pos=int(input("enter the position to change"))
+if pos>=0 and pos<length:
+    arr=arr[pos:]+arr[:pos]
+else:
+    print("positionn not found")
+print(arr)
