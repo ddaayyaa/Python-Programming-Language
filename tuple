@@ -1,0 +1,3 @@
+a="saveetha university"
+print(a)
+print(a[::-1])

@@ -1,0 +1,9 @@
+try:
+    a=int(input())
+    b=int(input())
+    c=a/b
+    print("Division:",c)
+except ValueError as e:
+    print("Value Error",e)
+except Exception as e:
+    print("something Wrong")

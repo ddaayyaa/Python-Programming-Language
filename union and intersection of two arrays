@@ -1,0 +1,8 @@
+arr1=input("Enter 1st array:").split()
+arr2=input("Enter 2st array:").split()
+un=list(map(int,set(arr1)|set(arr2)))
+un1=sorted(un)
+print(un1) 
+in2=list(map(int,set(arr1)&set(arr2)))
+in1=sorted(in2)
+print(in1)
