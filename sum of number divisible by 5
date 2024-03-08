@@ -1,0 +1,13 @@
+start = int(input("Enter the start number of the range: "))
+end= int(input("Enter the end number of the range: "))
+
+count = 0
+sumdivisible = 0
+
+for num in range(start, end+1):
+    if num % 5 == 0:
+        count += 1
+        sumdivisible += num
+
+print("Number of integers divisible by 5 in the range from", start, "to", end, "is:", count)
+print("Sum of integers divisible by 5 in the range from", start, "to", end, "is:", sumdivisible)

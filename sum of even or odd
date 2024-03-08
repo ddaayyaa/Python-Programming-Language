@@ -1,0 +1,11 @@
+sum_even=0
+sum_odd=0
+start=int(input("1st:"))
+end=int(input("2nd:"))
+for i in range(start,end+1):
+  if i%2==0:
+    sum_even +=i
+  else:
+    sum_odd +=i
+print(sum_even)
+print(sum_odd)    

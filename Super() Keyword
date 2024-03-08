@@ -1,0 +1,21 @@
+class  A():
+    def __init__(self):
+        print("Accessing class A")
+    def display(self):
+        print("All going good in A class")
+class  B(A):
+    def __init__(self):
+        super().__init__()
+        print("Accessing class B")
+    def display(self):
+        super().display()
+        print("All going good in B class")
+class C(B):
+    def __init__(self):
+        super().__init__()
+        print("Accessing class C")
+    def display(self):
+        super().display()
+        print("All going good in C class")
+c=C()
+c.display()
