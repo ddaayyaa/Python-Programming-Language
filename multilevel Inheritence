@@ -1,0 +1,14 @@
+class Grandfather():
+    def property(self):
+        print("Utilize property for my hier")
+class dad(Grandfather):
+    def phone(self):
+        print("Allowed to use phone")
+class son(dad):
+    def study(self):
+        print("For study Purpose need phone")
+        
+s=son()
+s.study()
+s.phone()
+s.property()
