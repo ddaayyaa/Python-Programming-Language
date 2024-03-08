@@ -1,0 +1,41 @@
+class AO:
+    @classmethod
+    def __init__(self, num1, num2):
+        self.num1 = num1
+        self.num2 = num2
+    
+    @classmethod
+    def add(cls):
+        return cls.num1 + cls.num2
+    
+    @classmethod
+    def subtract(cls):
+        return cls.num1 - cls.num2
+    
+    @classmethod
+    def multiply(cls):
+        return cls.num1 * cls.num2
+    
+    @classmethod
+    def divide(cls):
+        return cls.num1 / cls.num2
+    
+    @classmethod
+    def mod(cls):
+        return cls.num1 % cls.num2
+    
+    @classmethod
+    def pow(cls):
+        return cls.num1 ** cls.num2
+    def display(self):
+        print("Addition      :", self.add())
+        print("Subtraction   :", self.subtract())
+        print("Multiplication:", self.multiply())
+        print("Division      :", self.divide())
+        print("Modulus       :", self.mod())
+        print("Power         :", self.pow())
+
+k = AO(4,2)
+k.display()
+g=AO(4,5)
+g.display()
