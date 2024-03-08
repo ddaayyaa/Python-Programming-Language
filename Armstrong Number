@@ -1,0 +1,11 @@
+n = int(input("Enter a number: "))
+sum=0
+ori_n=n
+while n>0:
+    r=n%10
+    sum +=r**3
+    n //=10
+if sum==ori_n:
+    print("Armstrong")
+else:
+    print("Not Armstrong")
