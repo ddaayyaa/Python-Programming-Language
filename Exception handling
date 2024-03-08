@@ -1,0 +1,6 @@
+try:
+    print("hi")
+    print("how are you")
+    Print("Hello")
+except Exception as e:
+   print ("something wrong",e)

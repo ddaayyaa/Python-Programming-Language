@@ -1,0 +1,8 @@
+def is_equal(list1,list2):
+    return list1==list2
+list1="daya"
+list2="daya"
+if is_equal(list1,list2):
+    print("True")
+else:
+    print("False")
