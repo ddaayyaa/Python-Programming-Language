@@ -1,0 +1,9 @@
+string1 = input('Enter the name of the first fruit:\n')
+string2 = input('Enter the name of the second fruit:\n')
+
+if string1 < string2:
+    print(string1, "is less than ",string2)
+elif string1 >string2:
+    print(string1," is greater than " ,string2)
+else:
+    print(string1," and " ,string2," are the same.")
