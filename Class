@@ -1,0 +1,13 @@
+class chennai :
+   hotel1="varaprasad"
+   hotel2="saveetha"
+   def simha(self):
+       print("Joined in google company")
+   def jai(self):
+       print("Wants to join in collage")
+s=chennai()
+s.simha()
+s.jai()
+j=chennai()
+print(j.hotel1)
+print(s.hotel2)
