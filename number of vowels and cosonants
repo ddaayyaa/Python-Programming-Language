@@ -1,0 +1,10 @@
+sentence="dayAkar".lower()
+vow=0
+con=0
+for char in sentence:
+     if char in 'aeiou':
+          vow +=1
+     else:
+          con +=1
+print(vow)
+print(con)

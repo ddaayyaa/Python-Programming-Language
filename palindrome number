@@ -1,0 +1,6 @@
+n=1234321
+nn=str(n)
+if nn==nn[::-1]:
+    print("palindrome")
+else:
+    print("Not Palindrome")

@@ -1,0 +1,8 @@
+try:
+    a=input()
+    b=input()
+    Print(a/b)
+except NameError as e:
+    print("Name Error",e)
+except Exception as e:
+    print("something Wrong")
