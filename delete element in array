@@ -1,0 +1,6 @@
+arr=[1,2,3,4,5,6,7]
+
+arr.remove(5)
+print("New Array:")
+for element in arr:
+    print(element, end="  ")

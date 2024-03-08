@@ -1,0 +1,13 @@
+a={1:"saveetha",2:"university"}
+b={3:"daya",4:"hi"}
+c={5:"dayakar"}
+a.update(b)
+a.update(c)
+print(a)
+print(a.keys())
+print(a.values())
+print(a.items())
+print(1 in a)
+print("saveetha" in a.values())
+l=list(a)
+print(l)
