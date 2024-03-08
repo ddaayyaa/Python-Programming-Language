@@ -1,0 +1,12 @@
+radius = 5
+circle_perimeter = 2 * 3.14159 * radius
+length = 4
+width = 3
+rectangle_perimeter = 2 * (length + width)
+side1 = 3
+side2 = 4
+side3 = 5
+triangle_perimeter = side1 + side2 + side3
+print("Perimeter of Circle:", circle_perimeter)
+print("Perimeter of Rectangle:", rectangle_perimeter)
+print("Perimeter of Triangle:", triangle_perimeter)
