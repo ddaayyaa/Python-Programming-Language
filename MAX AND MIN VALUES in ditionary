@@ -1,0 +1,4 @@
+my_dict = {'a': 1, 'b': 2, 'c': 1, 'd': 3, 'e': 2}
+max=max(my_dict.values())
+min=min(my_dict.values())
+print(max,min)
