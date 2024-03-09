@@ -1,0 +1,11 @@
+d1={1:'a',2:'b'}
+d2={3:'c',4:'d'}
+d1.update(d2)
+print(d1)
+#ELEMENT EXIST IN TUPLE
+my_tuple = (1, 2, 3, 4, 5)
+element_to_check = 3
+if element_to_check in my_tuple:
+    print("Element exists in the tuple")
+else:
+    print("Element does not exist in the tuple")
