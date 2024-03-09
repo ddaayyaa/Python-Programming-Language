@@ -1,0 +1,7 @@
+text="this is the most of the most in the ch og=f the the"
+count={}
+words=text.split()
+for word in words:
+    count[word]=count.get(word,0)+1
+max_word=max(count,key=count.get)
+print(max_word)
