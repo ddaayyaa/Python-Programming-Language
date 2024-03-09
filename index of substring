@@ -1,0 +1,7 @@
+s='helloworld'
+sub_s='world'
+index=s.find(sub_s)
+if index!=-1:
+    print(f"string is find in the {sub_s} in the index",index)
+else:
+    print("not ")
