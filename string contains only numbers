@@ -1,0 +1,9 @@
+s="1234"
+digit_contains=True
+for char in s:
+    if not char.isdigit():
+        digit_contains=False
+if digit_contains:
+    print("digit")
+else:
+    print("not")
