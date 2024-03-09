@@ -1,0 +1,21 @@
+class Laptop:
+    chargtype = "C type"
+
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+    @classmethod
+    def display(cls, obj):
+        cls.chargtype = "B type"
+        print("Name: ", obj.name)
+        print("Price: ", obj.price)
+        print("Chargetype: ", cls.chargtype)
+
+    @staticmethod
+    def info():
+        print("Task completed")
+
+d1 = Laptop("Vivo", 23000)
+Laptop.display(d1)
+Laptop.info()
