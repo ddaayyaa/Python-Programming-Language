@@ -1,0 +1,16 @@
+class fruit:
+ def __init__(self,colour):
+  self.colour=colour
+
+ def apple(self):
+  print("Apple colour",self.colour)
+ def orange(self):
+  print("Orange colour",self.colour)
+ def grapes(self):
+  print("Grapes coiours",self.colour)
+f=fruit("Red")
+f.apple()
+h=fruit("Orange")
+h.orange()
+j=fruit("Green")
+j.grapes()

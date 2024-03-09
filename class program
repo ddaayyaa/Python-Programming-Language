@@ -1,0 +1,20 @@
+class laptop:
+    pricel=67000
+    processorl="intel core i5"
+    raml=32
+    price=50000
+    processor="intel"
+    ram=16
+    def __init__(self):
+     print(" \tDEMO \t")
+    def hp(self):
+     print(" \tHP Laptop \t")
+l=laptop()
+l.__init__()
+print("price:     ",l.pricel)
+print("Processor: ",l.processorl)
+print("RAM:       ",l.raml)
+l.hp()
+print("Price:     ",l.price)
+print("Processor: ",l.processor)
+print("RAM:       ",l.ram)
