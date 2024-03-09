@@ -1,0 +1,3 @@
+d={"a":12,"b":23,"c":45}
+list_tuple=list(d.items())
+print(list_tuple)
