@@ -1,0 +1,10 @@
+txt="trinath ram"
+count={}
+for char in txt:
+    count[char]=count.get(char,0)+1
+for char in txt:
+    if count[char]==1:
+        print(char)
+        break
+else:
+       print("not")
