@@ -1,0 +1,4 @@
+d1={'a':20,'b':45,'c':23}
+max=max(d1,key=d1.get)
+min=min(d1,key=d1.get)
+print(max,min)
