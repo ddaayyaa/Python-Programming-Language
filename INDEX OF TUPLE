@@ -1,0 +1,4 @@
+t=(1,2,3,4,5)
+in_find=3
+index=t.index(in_find)
+print(index)
