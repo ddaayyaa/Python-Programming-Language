@@ -1,0 +1,3 @@
+list=[2,3,4,45,5,4,4]
+sorted=sorted(list)
+print(sorted)
