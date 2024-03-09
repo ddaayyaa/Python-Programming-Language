@@ -1,0 +1,3 @@
+str1="trinath ram venky hanumayamma"
+captalized=str1.title()
+print(captalized)
