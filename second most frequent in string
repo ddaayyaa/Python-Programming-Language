@@ -1,0 +1,5 @@
+from collections import Counter
+s='aannnsbbbbdhhhhhhhhhhhhss'
+freq=Counter(s)
+sec_freq=freq.most_common(2)[-1][0]
+print(sec_freq)
