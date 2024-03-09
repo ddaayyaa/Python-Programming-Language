@@ -1,0 +1,7 @@
+a="trinath hi"
+vowels="aeiou"
+result=''
+for char in a:
+    if char not in vowels:
+        result+=char
+print(result)
