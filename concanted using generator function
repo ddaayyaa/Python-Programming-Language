@@ -1,0 +1,7 @@
+def strings(str1,str2):
+    for char in str1,str2:
+        yield char
+s1="trinath"
+s2="ram"
+concatenated="".join(strings(s1,s2))
+print(concatenated)
