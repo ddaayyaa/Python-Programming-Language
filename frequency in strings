@@ -1,0 +1,9 @@
+s="hello world"
+freq={}
+for char in s:
+    if char in freq:
+        freq[char]+=1
+    else:
+        freq[char]=1
+for char,frequency in freq.items():
+    print(f"character'{char}' occurs {frequency} times")
