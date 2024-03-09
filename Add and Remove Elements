@@ -1,0 +1,8 @@
+a=[1,2,3,4,5]
+a.extend([6,7,8,9])
+print(a)
+print(type(a[3]))
+a.sort(reverse=True)
+print(a)
+a.remove(5)
+print(a)
