@@ -1,0 +1,4 @@
+l1=[1,2,3,6,58,7,76]
+l2=[1,2,345,666,56]
+intersection=[x for x in l1 if x in l2]
+print(intersection)
