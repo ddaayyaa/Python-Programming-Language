@@ -1,0 +1,4 @@
+l=[1,23,4,5,56,65,43]
+lp=sorted(l,reverse=True)
+sec=lp[1]
+print(sec)
