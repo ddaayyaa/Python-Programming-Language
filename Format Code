@@ -1,0 +1,5 @@
+price=505
+month=4
+room="Hotel"
+l="i want to pay {} rupee of month {} for {} rent"
+print(l.format(price,month,room))
